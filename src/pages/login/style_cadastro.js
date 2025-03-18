@@ -1,0 +1,111 @@
+import { StyleSheet } from "react-native";
+
+const style = StyleSheet.create({
+    container:{
+        flex:1,
+        flexDirection:"column",
+        justifyContent:"center",
+        alignItems:"center",
+        padding:15,
+        backgroundColor:"rgb(22,50,80)",
+    }, 
+    containerFundo:{
+        flexDirection:"row",
+        justifyContent:"space-between",
+        padding:10,
+        gap:5,
+        width:"95%",
+        height:"100%",
+        borderRadius:25,
+        backgroundColor:"rgb(230,230,230)",
+    }, 
+    containerFields:{
+        width:"50%",
+        height:"100%",
+        justifyContent:"flex-start",
+        alignItems:"flex-start",
+        flexDirection:"column",
+        gap:25,
+        borderRadius:18,
+        padding:10,
+        // backgroundColor:"rgb(175,175,175)",
+    },
+    containerImg:{
+        width:"35%",
+        borderRadius:18,
+        padding:10,
+        backgroundColor:"rgb(22,50,80)",
+    },
+    titulo:{
+        marginLeft:100,
+        fontFamily:"arial",
+        fontSize:30,
+        fontWeight:"500",
+    },
+    subiTitulo:{
+        marginLeft:100,
+        fontFamily:"arial",
+        fontWeight:"200",
+        fontSize:18,
+        color:"rgb(145,145,145)",
+    },
+    FieldNameSobre:{
+        width:"100%",
+        paddingLeft:102,
+        gap:12,
+        flexDirection:"row",
+        justifyContent:"flex-start",
+        alignItems:"center",
+        // backgroundColor:"rgb(148,14,17)"
+    },
+    inputCadastro:{
+        width:"70%", 
+        height:50,
+        padding:12, 
+        borderRadius:10, 
+        backgroundColor:"rgb(215,215,215)"
+    },
+    inputNameSobre:{
+        width:"40%", 
+        height:50, 
+        borderRadius:10, 
+        padding:12,
+        backgroundColor:"rgb(215,215,215)"
+    },
+    containerField:{
+        // backgroundColor:"rgb(1,52,2)",
+        width:"100%", 
+        height:"60%",
+        flexDirection:"column",
+        justifyContent:"flex-start", 
+        alignItems:"center", 
+        gap:25,
+    },
+    bntCadastro:{
+        justifyContent:"center",
+        alignItems:"center",
+        backgroundColor: "linear-gradient(170deg, rgb(12,52,80), rgb(15,65,95), rgb(12,52,80),rgb(15,65,95), rgb(12,52,80))",
+        width:350,
+        height:45,
+        borderRadius:10,
+    },
+    txtBtn:{
+        fontSize:18,
+        fontFamily:"arial",
+        fontWeight:"500",
+        color:"rgb(251,252,253)",
+    },
+    Login:{
+        color:"rgb(22,50,80)",
+        fontSize:15,
+        fontWeight:"700",
+        fontStyle:"oblique",
+        textDecorationLine:"underline"
+        
+    },
+    link:{
+        textDecorationLine:"none",
+    }
+})
+
+export default style;
